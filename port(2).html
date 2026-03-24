@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #0a0a0a;
+            color: #fff;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            background: linear-gradient(90deg, green, purple, orange);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        /* Additional CSS for animations and effects */
+    </style>
+    <title>My Portfolio</title>
+</head>
+<body>
+    <nav class="glass-card">
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about" class="glass-card">
+        <h2>About Me</h2>
+        <p>Details about me...</p>
+    </section>
+    <section id="projects" class="glass-card">
+        <h2>Projects</h2>
+        <p>Showcasing my work...</p>
+        <div class="rotating-title-card">Rotating Title Card Animation</div>
+    </section>
+    <section id="certificates" class="glass-card">
+        <h2>Certificates</h2>
+        <div class="accordion">Accordion content...</div>
+        <marquee>Certificates scrolling text...</marquee>
+    </section>
+    <section id="contact" class="glass-card">
+        <h2>Contact</h2>
+        <p>Social links...</p>
+        <a href="path/to/resume.pdf" download>Download Resume</a>
+    </section>
+    <button id="translate-btn">Translate to Japanese</button>
+    <script src="https://three.js"></script>
+    <script>
+        // Three.js effect for background
+        // Additional JS for interactivity and animations
+    </script>
+</body>
+</html>
